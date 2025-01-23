@@ -1,0 +1,97 @@
+/* List.css */
+.update-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .update-form h3 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .update-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-form div {
+    margin-bottom: 15px;
+  }
+  
+  .update-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .update-form input[type="text"],
+  .update-form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .update-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-form button:hover {
+    background-color: #0056b3;
+  }
+
+  /* List.css or List2.css */
+
+/* Button styles */
+.actions {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .actions button.edit {
+    background-color: #007bff; /* Blue background for Edit button */
+    color: white;
+  }
+  
+  .actions button.edit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .actions button.delete {
+    background-color: #dc3545; /* Red background for Delete button */
+    color: white;
+  }
+  
+  .actions button.delete:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
+  /* Optional: Additional styling for buttons */
+  .actions button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Blue outline for focused button */
+  }
+  
